@@ -15,7 +15,7 @@
     {
         $_SESSION["usuario"] = $usuario;
 
-        header("location: ../paginas/boasvindas;php");
+        header("location: ../paginas/boasvindas.php");
     }
     else{
         echo"Usuário ou Senha Inválidos";
